@@ -1,0 +1,44 @@
+body {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    font-family: "Rubik Mono One", monospace;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #333; /* Fundo da tabela */
+}
+
+th, td {
+    border: 1px solid #555; /* Bordas cinza */
+    padding: 8px;
+    color: #fff; /* Texto branco */
+}
+
+th {
+    background-color: #444; /* Fundo do cabeçalho */
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #222; /* Linhas pares com fundo mais escuro */
+}
+
+tr:hover {
+    background-color: #555; 
+}
+
+button {
+    padding: 10px;
+    background-color: #f1f1f1d8;
+    font-family: "Rubik Mono One", monospace;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d051b;
+}

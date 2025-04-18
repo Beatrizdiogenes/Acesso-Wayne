@@ -1,0 +1,110 @@
+.formulario {
+    margin: 35px 246px;
+    padding: 40px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+.formulario_funcionario{
+    margin: -14px 306px;
+    padding: 20px;
+    background-color: #333;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.formulario h2 {
+    margin: 0 0 20px;
+    
+    color: #2b2a29;
+    
+}
+.formulario_funcionario h2 {
+    margin: 0 0 20px;
+    
+    color: #2b2a29;
+    
+}
+
+.formulario {
+    margin-bottom: 20px;
+  
+}
+
+.formulario_funcionario {
+    margin-bottom: 20px;
+  
+}
+
+.formulario input {
+    width: 96%;
+    height: 25px;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #222;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.formulario_funcionario input {
+    width: 96%;
+    height: 25px;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #222;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Rubik Mono One", monospace;
+}
+
+button {
+    padding: 10px;
+    background-color: #f1f1f1d8;
+    font-family: "Rubik Mono One", monospace;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d051b;
+}
+
+a {
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a:hover {
+    border-radius: 3px;
+    background-color: #555;
+}
