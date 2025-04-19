@@ -1,0 +1,148 @@
+# Sistema de Login - Wayne Industries
+
+Este projeto é um sistema de login com autenticação de usuários baseada em cargo (empregado, gerente e segurança), desenvolvido com **HTML**, **CSS** e **JavaScript** puro. Após o login, cada tipo de usuário é redirecionado para uma página com funcionalidades específicas.
+
+## Funcionalidades
+
+- **Autenticação de Usuário**
+  - Login com verificação de credenciais (usuário e senha)
+  - Redirecionamento para páginas específicas de acordo com o tipo de funcionário
+
+- **Acesso por Cargo**
+  - **Employer (Funcionário Comum)**
+    - Cadastro de produtos
+    - Visualização de estoque
+  - **Manager (Gerente)**
+    - Visualização de estoque
+    - Cadastro de funcionários
+    - Visualização de funcionários
+  - **Security (Segurança)**
+    - Visualização das câmeras
+    - Visualização de estoque
+
+## Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+
+## Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+2. Abra o arquivo `index.html` no navegador.
+3. Faça login com uma das combinações abaixo:
+
+| Usuário   | Senha         | Cargo      |
+|-----------|---------------|------------|
+| employees | Ilovemywork   | Employer   |
+| manager   | password123   | Manager    |
+| security  | howasacat     | Security   |
+
+4. Após o login, você será redirecionado para a página correspondente ao seu cargo.
+
+## Estrutura do Projeto
+
+```
+/
+├── index.html
+├── style.css
+├── script.js
+├── employeer.html
+├── manager.html
+├── security.html
+├── visualizar_estoque.html
+├── manager_form.html
+├── visualizar_funcionarios.html
+├── cameras.html
+├── cadastro.html
+```
+
+## Possíveis Melhorias
+
+- Implementar autenticação com backend e banco de dados
+- Criptografia de senhas
+- Interface responsiva para dispositivos móveis
+- Controle de sessão com cookies ou localStorage
+
+## Estilo CSS
+
+O projeto utiliza um estilo visual limpo e moderno com foco em usabilidade e contraste. Abaixo estão alguns destaques do CSS aplicado:
+
+- **Reset de estilos:** Uso de `* { margin: 0; padding: 0; box-sizing: border-box; }` para garantir consistência entre navegadores.
+- **Layout principal:** Corpo centralizado usando Flexbox, com fundo preto para reforçar a identidade visual corporativa.
+- **Formulário de login:**
+  - Fundo translúcido escuro com sombra e bordas arredondadas.
+  - Campos de entrada estilizados com bordas suaves e fontes legíveis.
+- **Botões:**
+  - Botões com estilo minimalista e hover interativo.
+- **Navegação:**
+  - Menu com layout flexível, com contraste de cores e fonte impactante.
+- **Elementos visuais:**
+  - Logo da empresa estilizado com imagem de fundo circular e borda personalizada.
+  - Seções com textos claros e responsivos.
+- **Rodapé:**
+  - Rodapé fixo, discreto, com informações complementares em fontes menores.
+
+O estilo é mantido em um arquivo CSS externo para melhor organização e reutilização.
+
+## Estilo CSS Adicional
+
+Além do estilo principal, o projeto conta com folhas de estilo adicionais aplicadas em páginas específicas, como formulários de cadastro e gerenciamento. Destaques:
+
+- **Formulários:**
+  - `.formulario` e `.formulario_funcionario`: caixas com fundo escuro, cantos arredondados e sombras suaves.
+  - Inputs estilizados com borda discreta, fundo escuro e texto claro, mantendo consistência com o tema geral.
+  - Fontes em estilo impactante para reforçar o tom corporativo.
+
+- **Botões:**
+  - Botões com aparência clara e elegante.
+  - Efeito hover escurecendo o botão para melhor feedback visual.
+
+- **Layout geral:**
+  - Mantém o fundo preto e centralização dos conteúdos com Flexbox.
+  - A classe `.logo` é reaproveitada para manter identidade visual em diferentes páginas.
+
+Essas folhas de estilo seguem o mesmo padrão visual do restante do sistema, garantindo coesão na interface e usabilidade para diferentes cargos.
+
+## Estilo CSS Adicional
+
+O projeto também conta com folhas de estilo específicas para formulários de cadastro e páginas diferenciadas. A seguir, alguns detalhes:
+
+- **Formulários personalizados**
+  - `.formulario` e `.formulario_funcionario`: usados para cadastro de produtos e funcionários, respectivamente.
+  - Estilização semelhante entre os dois, com cores escuras, bordas arredondadas, sombra e espaçamento consistente.
+  - Inputs estilizados com fundo escuro e texto branco, mantendo a coerência visual com o restante do site.
+
+- **Botões**
+  - Visual moderno com hover escuro.
+  - Tipografia com destaque utilizando a fonte `"Rubik Mono One"`.
+
+- **Corpo da Página**
+  - `body` com fundo preto e layout centralizado com Flexbox.
+
+- **Logo e Links**
+  - Logos com destaque branco e tipografia marcante.
+  - Links com interação ao passar o mouse.
+
+Este CSS reforça a identidade visual da aplicação com um padrão corporativo consistente em toda a interface.
+
+## Estilo CSS Final
+
+A última parte do CSS adiciona estilos para tabelas e botões, com foco na visualização de dados e interatividade:
+
+- **Corpo da Página**
+  - `body` com fundo preto e texto branco, proporcionando boa leitura e contraste.
+
+- **Tabelas**
+  - Tabelas com fundo escuro e bordas finas.
+  - Cabeçalhos das tabelas com fundo cinza mais claro e texto alinhado à esquerda.
+  - Linhas alternadas para uma leitura mais fácil, com cores alternadas de fundo.
+  - Efeito de hover nas linhas da tabela para melhorar a interação.
+
+- **Botões**
+  - Botões com fundo claro e efeito de hover escuro, mantendo consistência no estilo interativo.
+
+Este CSS é focado em melhorar a legibilidade de tabelas e aumentar a interatividade com o usuário, mantendo a identidade visual consistente com o restante do projeto.
