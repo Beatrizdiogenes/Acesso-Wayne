@@ -21,8 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const fabricante = document.querySelector("#fabricante");
         const valor = document.querySelector("#valor");
         const especificacao = document.querySelector("#especificacao");;
-
-        
+           
         const novoProduto = {
             nome: nome.value,
             qtde: qtde.value,

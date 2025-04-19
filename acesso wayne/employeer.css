@@ -70,6 +70,9 @@ a:hover{
     border-radius: 3px;
     background-color: #555;
 }
-
+.box_camera{
+    display: flex;
+    
+}
 
 
