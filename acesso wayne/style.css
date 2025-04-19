@@ -179,30 +179,7 @@ p {
     color: #dcdcdc; 
 }
 
-#cameraContainer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
 
-.camera {
-    border: 1px solid #ccc;
-    padding: 10px;
-    width: 250px;
-    text-align: center;
-}
-
-.camera img {
-    width: 100%;
-    height: auto;
-    border: 1px solid #ddd;
-}
-
-.camera p {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #555;
-}
 
 
 
